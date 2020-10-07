@@ -47,7 +47,7 @@
     <auto.common.version>1.0-SNAPSHOT</auto.common.version>
     <auto.service.version>1.0-rc1</auto.service.version>
     <auto.value.version>1.0</auto.value.version>
-    <guava.version>18.0</guava.version>
+    <guava.version>23.0</guava.version>
 
     <!-- Test Dependencies -->
     <compile-testing.version>1.0-SNAPSHOT</compile-testing.version>
