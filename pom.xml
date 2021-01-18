@@ -52,7 +52,7 @@
     <!-- Test Dependencies -->
     <compile-testing.version>1.0-SNAPSHOT</compile-testing.version>
     <junit.version>4.11</junit.version>
-    <mockito.version>1.9.5</mockito.version>
+    <mockito.version>3.7.7</mockito.version>
     <truth.version>1.0-SNAPSHOT</truth.version>
   </properties>
 
