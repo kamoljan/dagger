@@ -59,7 +59,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>animal-sniffer-maven-plugin</artifactId>
-        <version>1.8</version><!-- 1.9+ requires JDK7 on the build machine -->
+        <version>1.20</version><!-- 1.9+ requires JDK7 on the build machine -->
         <executions>
           <execution>
             <id>sniff-api</id>
