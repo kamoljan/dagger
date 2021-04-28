@@ -1,0 +1,24 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: com.google.auto.value:auto-value
+    versions:
+    - 1.7.4
+    - 1.7.5
+    - "1.8"
+  - dependency-name: org.mockito:mockito-core
+    versions:
+    - 3.7.7
+    - 3.8.0
+  - dependency-name: com.google.auto.service:auto-service
+    versions:
+    - 1.0-rc7
+  - dependency-name: org.codehaus.mojo:animal-sniffer-maven-plugin
+    versions:
+    - "1.19"
